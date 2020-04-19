@@ -12,7 +12,7 @@ import myUtils.*;
 import java.util.concurrent.TimeUnit;
 
 
-public class SendContactMessage {
+public class SelectIncorrectFileExtension {
     WebDriver driver;
     HomePage homePage;
     ContactUs contactUs;
@@ -26,6 +26,7 @@ public class SendContactMessage {
         driver.manage().window().maximize();
         homePage = new HomePage(driver);
     }
+
 
     @Test(testName = "Send Contact Message")
     public void sendContactMessage(){

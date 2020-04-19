@@ -1,20 +1,23 @@
 package tests;
 
+import myUtils.Utils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import pages.*;
+import pages.ContactUs;
+import pages.HomePage;
 
-import javax.swing.*;
+import java.util.concurrent.TimeUnit;
 
 
-public class Prueba {
+public class SendContactMessagewithoutMessage {
     WebDriver driver;
     HomePage homePage;
     ContactUs contactUs;
+    Utils myUtil = new Utils();
 
 
     @BeforeClass
@@ -32,14 +35,20 @@ public class Prueba {
         String email = "fulanito@mail.com";
         String order = "999";
         String file = "logo.png";
+        String message = "";
 
 
         homePage.clickContactUsLink();
         contactUs = new ContactUs(driver);
-        Assert.assertEquals(driver.getCurrentUrl(),contactUs.getUrl());
-        contactUs.sendForm(header, email, order, file);
 
-        //JOptionPane.showMessageDialog(null, contactUs.getConfirmationMessage());
+        //TODO Change this for a wait proper method
+        driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
+
+        Assert.assertEquals(driver.getCurrentUrl(),contactUs.getUrl());
+        contactUs.sendForm(header, email, order, file, message);
+        Assert.assertTrue(contactUs.isPresentAlertErrorMessage());
+
+
     }
 
     @AfterClass
