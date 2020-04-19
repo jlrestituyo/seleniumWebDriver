@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9129b95c-292b-48ba-90ed-09f971d88a64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ContactUs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/Prueba.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SendContactMessage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,32 +27,64 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/Test1.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/SendContactMessage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+            <state relative-caret-position="206">
+              <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#549#550#0" expanded="true" />
-                <element signature="e#584#585#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pages/HomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
+                <element signature="e#379#380#0" expanded="true" />
+                <element signature="e#429#430#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#589#590#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/HomePage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pages/ContactUs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+            <state relative-caret-position="45">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#586#587#0" expanded="true" />
-                <element signature="e#622#623#0" expanded="true" />
-                <element signature="e#420#421#0" expanded="true" />
-                <element signature="e#450#451#0" expanded="true" />
-                <element signature="e#483#484#0" expanded="true" />
-                <element signature="e#515#516#0" expanded="true" />
+                <element signature="e#553#554#0" expanded="true" />
+                <element signature="e#589#590#0" expanded="true" />
+                <element signature="e#1058#1059#0" expanded="true" />
+                <element signature="e#1119#1120#0" expanded="true" />
+                <element signature="e#1514#1515#0" expanded="true" />
+                <element signature="e#1568#1569#0" expanded="true" />
+                <element signature="e#1795#1796#0" expanded="true" />
+                <element signature="e#1869#1870#0" expanded="true" />
+                <element signature="e#1683#1684#0" expanded="true" />
+                <element signature="e#1713#1714#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/Prueba.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="82" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,6 +113,10 @@
         <option value="$PROJECT_DIR$/src/test/java/Test1.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/Test1.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/Prueba.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/SendContactMessage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/ContactUs.java" />
       </list>
     </option>
   </component>
@@ -91,9 +127,8 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="19" />
-    <option name="y" value="122" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="735" />
   </component>
@@ -145,17 +180,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="restituyo.web.driver.java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumWebDriver" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restituyo.web.driver.java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumWebDriver" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="generated-test-sources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -164,7 +188,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587263953761" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587322792551" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
@@ -189,7 +213,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Test1">
+  <component name="RunManager" selected="TestNG.SendContactMessage">
     <configuration name="Default" type="JUnit" factoryName="JUnit">
       <module name="restituyo.web.driver.java" />
       <option name="MAIN_CLASS_NAME" value="" />
@@ -210,13 +234,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1" type="TestNG" nameIsGenerated="true">
+    <configuration name="SendContactMessage" type="TestNG" nameIsGenerated="true">
       <module name="restituyo.web.driver.java" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="tests.Test1" />
+      <option name="MAIN_CLASS_NAME" value="tests.SendContactMessage" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="PARAMETERS" value="" />
@@ -311,7 +335,7 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.Default" />
-      <item itemvalue="TestNG.Test1" />
+      <item itemvalue="TestNG.SendContactMessage" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -328,42 +352,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test1 - 2020.04.18 at 22h 18m 31s.xml">
-      <configuration name="Test1" configurationId="TestNG" />
+    <history-entry file="SendContactMessage - 2020.04.19 at 15h 46m 42s.xml">
+      <configuration name="SendContactMessage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Test1 - 2020.04.18 at 22h 18m 42s.xml">
-      <configuration name="Test1" configurationId="TestNG" />
+    <history-entry file="SendContactMessage - 2020.04.19 at 15h 47m 19s.xml">
+      <configuration name="SendContactMessage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Test1 - 2020.04.18 at 22h 19m 05s.xml">
-      <configuration name="Test1" configurationId="TestNG" />
+    <history-entry file="SendContactMessage - 2020.04.19 at 15h 48m 01s.xml">
+      <configuration name="SendContactMessage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Test1 - 2020.04.18 at 22h 21m 48s.xml">
-      <configuration name="Test1" configurationId="TestNG" />
+    <history-entry file="SendContactMessage - 2020.04.19 at 15h 48m 19s.xml">
+      <configuration name="SendContactMessage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Test1 - 2020.04.18 at 22h 40m 27s.xml">
-      <configuration name="Test1" configurationId="TestNG" />
+    <history-entry file="SendContactMessage - 2020.04.19 at 15h 48m 57s.xml">
+      <configuration name="SendContactMessage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Test1 - 2020.04.18 at 22h 41m 18s.xml">
-      <configuration name="Test1" configurationId="TestNG" />
+    <history-entry file="SendContactMessage - 2020.04.19 at 15h 49m 41s.xml">
+      <configuration name="SendContactMessage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Test1 - 2020.04.18 at 22h 43m 19s.xml">
-      <configuration name="Test1" configurationId="TestNG" />
+    <history-entry file="SendContactMessage - 2020.04.19 at 15h 53m 48s.xml">
+      <configuration name="SendContactMessage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Test1 - 2020.04.18 at 22h 44m 18s.xml">
-      <configuration name="Test1" configurationId="TestNG" />
+    <history-entry file="SendContactMessage - 2020.04.19 at 15h 55m 34s.xml">
+      <configuration name="SendContactMessage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Test1 - 2020.04.18 at 22h 45m 15s.xml">
-      <configuration name="Test1" configurationId="TestNG" />
+    <history-entry file="SendContactMessage - 2020.04.19 at 15h 55m 56s.xml">
+      <configuration name="SendContactMessage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Test1 - 2020.04.18 at 22h 50m 47s.xml">
-      <configuration name="Test1" configurationId="TestNG" />
+    <history-entry file="SendContactMessage - 2020.04.19 at 15h 56m 51s.xml">
+      <configuration name="SendContactMessage" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="835" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="735" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23175965" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2657512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -372,7 +396,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32839838" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37947124" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -381,7 +405,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32839838" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3281493" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -401,30 +425,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/Test1.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/Prueba.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        <state relative-caret-position="308">
+          <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        <state relative-caret-position="253">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#586#587#0" expanded="true" />
-            <element signature="e#622#623#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/SendContactMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/ContactUs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#1058#1059#0" expanded="true" />
+            <element signature="e#1119#1120#0" expanded="true" />
+            <element signature="e#1514#1515#0" expanded="true" />
+            <element signature="e#1568#1569#0" expanded="true" />
+            <element signature="e#1795#1796#0" expanded="true" />
+            <element signature="e#1869#1870#0" expanded="true" />
+            <element signature="e#1683#1684#0" expanded="true" />
+            <element signature="e#1713#1714#0" expanded="true" />
           </folding>
         </state>
       </provider>

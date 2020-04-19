@@ -5,24 +5,27 @@ import org.openqa.selenium.WebDriver;
 
 
 public class HomePage {
-    protected static WebDriver driver;
-
+    public WebDriver driver;
+    private String url = "http://automationpractice.com/index.php";
 
     //Locators of Home Page
-    private By promoLink = By.xpath("//*[@id=\"header\"]/div[1]/div/div/a/img");
+
     private By logo = By.xpath("//*[@id=\"header_logo\"]/a/img");
+    private By contactUs = By.xpath("//*[@id=\"contact-link\"]/a");
+
 
 
     public HomePage(WebDriver driver){
-        this.driver = driver; 
+        this.driver = driver;
     }
 
-    public By getPromoLink(){
-        return this.promoLink;
+
+    public void clickContactUsLink(){
+        driver.findElement(contactUs).click();
     }
 
-    public By getLogo(){
-        return this.logo;
+    public String getUrl(){
+        return this.url;
     }
 
 
