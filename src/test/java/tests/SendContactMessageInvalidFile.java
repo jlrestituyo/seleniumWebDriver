@@ -1,19 +1,16 @@
 package tests;
 
-import myUtils.Utils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import pages.ContactUs;
-import pages.HomePage;
-
-import java.util.concurrent.TimeUnit;
+import pages.*;
+import myUtils.*;
 
 
-public class SendContactMessagewithoutMessage {
+public class SendContactMessageInvalidFile {
     WebDriver driver;
     HomePage homePage;
     ContactUs contactUs;
@@ -28,21 +25,22 @@ public class SendContactMessagewithoutMessage {
         homePage = new HomePage(driver);
     }
 
+
     @Test(testName = "Send Contact Message")
     public void sendContactMessage(){
 
         String header = "Webmaster";
         String email = "fulanito@mail.com";
         String order = "999";
-        String file = "/Users/jrestituyo/IdeaProjects/seleniumWebDriver/fileToUpload.txt";
-        String message = "";
+        String file = "/Users/jrestituyo/IdeaProjects/seleniumWebDriver/invalidFile.jlr";
+        String message = "This is a test message";
 
 
         homePage.clickContactUsLink();
         contactUs = new ContactUs(driver);
         Assert.assertEquals(driver.getCurrentUrl(),contactUs.getUrl());
         contactUs.sendForm(header, email, order, file, message);
-        Assert.assertTrue(contactUs.isPresentAlertErrorMessage());
+        Assert.assertTrue(contactUs.isPresentAlertErrorFile());
 
 
     }

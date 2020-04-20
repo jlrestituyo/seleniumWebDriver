@@ -33,21 +33,15 @@ public class SendContactMessage {
         String header = "Webmaster";
         String email = "fulanito@mail.com";
         String order = "999";
-        String file = "/Users/jrestituyo/IdeaProjects/seleniumWebDriver/fileToUpload";
+        String file = "/Users/jrestituyo/IdeaProjects/seleniumWebDriver/fileToUpload.txt";
         String message = "This is a test message";
 
 
         homePage.clickContactUsLink();
         contactUs = new ContactUs(driver);
-
-        //TODO Change this for a wait proper method
-        driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
-
-
         Assert.assertEquals(driver.getCurrentUrl(),contactUs.getUrl());
         contactUs.sendForm(header, email, order, file, message);
         Assert.assertTrue(contactUs.isPresentConfirmationMessage());
-
 
     }
 

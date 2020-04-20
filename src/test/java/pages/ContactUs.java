@@ -3,8 +3,9 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
 
@@ -21,8 +22,12 @@ public class ContactUs {
     private By file = By.name("fileUpload");
     private By message = By.name("message");
     private By sendButton = By.name("submitMessage");
-    private By confirmationMessage = By.xpath("//*[contains(text(),'successfully')]");
-    private By alertError = By.xpath("//*[text()='There is 1 error']");
+    private By sendSuccessfully = By.xpath("//*[contains(text(),'successfully')]");
+    private By alertErrorSubject = By.xpath("//*[contains(text(),'select a subject')]");
+    private By alertErrorOrder = By.xpath("//*[contains(text(),'select a subject')]");
+    private By alertErrorEmail = By.xpath("//*[contains(text(),'Invalid email')]");
+    private By alertErrorFile = By.xpath("//*[contains(text(),'Bad file')]");
+    private By alertErrorMessage = By.xpath("//*[contains(text(),'message cannot be blank')]");
 
     public ContactUs(WebDriver driver){
         this.driver = driver;
@@ -38,11 +43,15 @@ public class ContactUs {
     }
 
 
-
-
     public void setHeader(String headerText){
+        WebDriverWait wait = new WebDriverWait(driver,10);
+        wait.until(ExpectedConditions.presenceOfElementLocated(subjectHeading));
         Select header = new Select(driver.findElement(subjectHeading));
-        header.selectByVisibleText(headerText);
+        if(headerText.equals("")){
+
+        }else {
+            header.selectByVisibleText(headerText);
+        }
     }
 
     public void setEmail(String emailText){
@@ -68,31 +77,31 @@ public class ContactUs {
     }
 
     public boolean isPresentConfirmationMessage(){
-        return driver.findElements(confirmationMessage).size() > 0;
+        return driver.findElements(sendSuccessfully).size() > 0;
+    }
+
+    public boolean isPresentAlertErrorSubject(){
+        return driver.findElements(alertErrorSubject).size() > 0;
+    }
+
+    public boolean isPresentAlertErrorEmail(){
+        return driver.findElements(alertErrorEmail).size() > 0;
+    }
+
+    public boolean isPresentAlertErrorOrder(){
+        return driver.findElements(alertErrorOrder).size() > 0;
+    }
+
+    public boolean isPresentAlertErrorFile(){
+        return driver.findElements(alertErrorFile).size() > 0;
     }
 
     public boolean isPresentAlertErrorMessage(){
-        return driver.findElements(alertError).size() > 0;
+        return driver.findElements(alertErrorMessage).size() > 0;
     }
 
     public String getUrl(){
         return this.url;
-    }
-
-
-    public List<WebElement> getAllWebElements(){
-        List<WebElement> listOfElements = null;
-        listOfElements.add(driver.findElement(subjectHeading));
-        listOfElements.add(driver.findElement(email));
-        listOfElements.add(driver.findElement(orderReference));
-        listOfElements.add(driver.findElement(file));
-        listOfElements.add(driver.findElement(message));
-        listOfElements.add(driver.findElement(sendButton));
-        listOfElements.add(driver.findElement(confirmationMessage));
-        listOfElements.add(driver.findElement(alertError));
-
-        return listOfElements;
-
     }
 
 

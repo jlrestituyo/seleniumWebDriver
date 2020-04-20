@@ -13,7 +13,7 @@ import pages.HomePage;
 import java.util.concurrent.TimeUnit;
 
 
-public class SendContactMessagewithoutMessage {
+public class SendContactMessagewitoutHeading {
     WebDriver driver;
     HomePage homePage;
     ContactUs contactUs;
@@ -31,18 +31,18 @@ public class SendContactMessagewithoutMessage {
     @Test(testName = "Send Contact Message")
     public void sendContactMessage(){
 
-        String header = "Webmaster";
+        String header = "";
         String email = "fulanito@mail.com";
-        String order = "999";
+        String order = "234234";
         String file = "/Users/jrestituyo/IdeaProjects/seleniumWebDriver/fileToUpload.txt";
-        String message = "";
+        String message = "this is a message";
 
 
         homePage.clickContactUsLink();
         contactUs = new ContactUs(driver);
         Assert.assertEquals(driver.getCurrentUrl(),contactUs.getUrl());
         contactUs.sendForm(header, email, order, file, message);
-        Assert.assertTrue(contactUs.isPresentAlertErrorMessage());
+        Assert.assertTrue(contactUs.isPresentAlertErrorSubject());
 
 
     }
