@@ -1,20 +1,35 @@
 package myUtils;
-import org.apache.commons.io.FileUtils;
+import com.opencsv.CSVReader;
 import org.openqa.selenium.*;
 
 
-import java.io.File;
+
+import java.io.IOException;
+import java.io.Reader;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.List;
 
 
 public class Utils {
     public WebDriver driver;
 
 
-    public void takeSnapShot(WebDriver webdriver, String fileWithPath) throws Exception {
-        TakesScreenshot scrShot = ((TakesScreenshot) webdriver);
-        File SrcFile = scrShot.getScreenshotAs(OutputType.FILE);
-        File DestFile = new File(fileWithPath);
-        FileUtils.copyFile(SrcFile, DestFile);
+    public List<String[]> readCSVFile(String filePath){
+        List<String[]> records = null;
+        try {
+            Reader reader = Files.newBufferedReader(Paths.get(filePath));
+            CSVReader csvReader = new CSVReader(reader);
+
+            records = csvReader.readAll();
+
+        }catch(IOException e){
+            e.printStackTrace();
+        }
+
+        return records;
+
     }
+
 
 }

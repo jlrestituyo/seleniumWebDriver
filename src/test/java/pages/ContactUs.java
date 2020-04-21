@@ -24,7 +24,6 @@ public class ContactUs {
     private By sendButton = By.name("submitMessage");
     private By sendSuccessfully = By.xpath("//*[contains(text(),'successfully')]");
     private By alertErrorSubject = By.xpath("//*[contains(text(),'select a subject')]");
-    private By alertErrorOrder = By.xpath("//*[contains(text(),'select a subject')]");
     private By alertErrorEmail = By.xpath("//*[contains(text(),'Invalid email')]");
     private By alertErrorFile = By.xpath("//*[contains(text(),'Bad file')]");
     private By alertErrorMessage = By.xpath("//*[contains(text(),'message cannot be blank')]");
@@ -86,10 +85,6 @@ public class ContactUs {
 
     public boolean isPresentAlertErrorEmail(){
         return driver.findElements(alertErrorEmail).size() > 0;
-    }
-
-    public boolean isPresentAlertErrorOrder(){
-        return driver.findElements(alertErrorOrder).size() > 0;
     }
 
     public boolean isPresentAlertErrorFile(){
