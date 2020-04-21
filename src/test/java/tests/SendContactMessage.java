@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 import pages.*;
 import myUtils.*;
 
+import java.net.URL;
 import java.util.List;
 
 
@@ -26,7 +27,7 @@ public class SendContactMessage {
         driver.manage().window().maximize();
         homePage = new HomePage(driver);
         myUtil = new Utils();
-        records = myUtil.readCSVFile("/Users/jrestituyo/IdeaProjects/seleniumWebDriver/data_source.csv");
+        records = myUtil.readCSVFile("data_source.csv");
     }
 
     @Test(testName = "Send Contact Message")

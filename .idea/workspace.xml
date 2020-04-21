@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9129b95c-292b-48ba-90ed-09f971d88a64" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/invalidFile.jlr" beforeDir="false" afterPath="$PROJECT_DIR$/fileToUpload.jlr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/myUtils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/myUtils/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ContactUs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ContactUs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/SendContactMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SendContactMessage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/SendContactMessageInvalidFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SendContactMessageInvalidFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/SendContactMessagewithInvalidEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SendContactMessagewithInvalidEmail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/SendContactMessagewithoutEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SendContactMessagewithoutEmail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/SendContactMessagewithoutMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SendContactMessagewithoutMessage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/SendContactMessagewithoutOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SendContactMessagewithoutOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SendContactMessagewitoutHeading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SendContactMessagewitoutHeading.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/SendContactMessage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="34" selection-start-line="34" selection-end-line="39" selection-end-column="39" />
+            <state relative-caret-position="177">
+              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,11 +41,29 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/SendContactMessagewitoutHeading.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/SendContactMessagewithoutOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+            <state relative-caret-position="107">
+              <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -56,8 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/SendContactMessagewithoutEmail.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+            <state relative-caret-position="293">
+              <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -65,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/SendContactMessagewithoutMessage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+            <state relative-caret-position="221">
+              <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -74,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/SendContactMessageInvalidFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+            <state relative-caret-position="214">
+              <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/SendContactMessagewithInvalidEmail.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+            <state relative-caret-position="221">
+              <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -130,18 +145,19 @@
         <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/fileToUpload" />
         <option value="$PROJECT_DIR$/src/test/java/tests/SelectIncorrectFileExtension.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/SendContactMessagewitoutHeading.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/uploadNotAllowedFileExtension.java" />
         <option value="$PROJECT_DIR$/TestSuite.xml" />
         <option value="$PROJECT_DIR$/src/test/java/pages/ContactUs.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/myUtils/Utils.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/SendContactMessagewithInvalidEmail.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/SendContactMessageInvalidFile.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/SendContactMessage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/SendContactMessageInvalidFile.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/SendContactMessagewithInvalidEmail.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/SendContactMessagewithoutEmail.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/SendContactMessagewithoutMessage.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/SendContactMessagewithoutOrder.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/SendContactMessagewitoutHeading.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -222,12 +238,6 @@
               <item name="seleniumWebDriver" type="462c0819:PsiDirectoryNode" />
               <item name="test-output" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="restituyo.web.driver.java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumWebDriver" type="462c0819:PsiDirectoryNode" />
-              <item name="test-output" type="462c0819:PsiDirectoryNode" />
-              <item name="QA Challenge" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -237,7 +247,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587449345529" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587450017428" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
@@ -265,7 +275,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SendContactMessagewitoutHeading">
+  <component name="RunManager" selected="TestNG.TestSuite">
     <configuration name="Default" type="JUnit" factoryName="JUnit">
       <module name="restituyo.web.driver.java" />
       <option name="MAIN_CLASS_NAME" value="" />
@@ -286,7 +296,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SendContactMessagewithInvalidEmail" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SendContactMessage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="restituyo.web.driver.java" />
       <extension name="coverage">
         <pattern>
@@ -298,7 +308,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/TestSuite.xml" />
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.SendContactMessagewithInvalidEmail" />
+      <option name="MAIN_CLASS_NAME" value="tests.SendContactMessage" />
       <option name="METHOD_NAME" value="" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -516,19 +526,19 @@
     <list>
       <item itemvalue="JUnit.Default" />
       <item itemvalue="TestNG.TestSuite" />
-      <item itemvalue="TestNG.SendContactMessagewithInvalidEmail" />
       <item itemvalue="TestNG.SendContactMessagewithoutEmail" />
       <item itemvalue="TestNG.SendContactMessagewithoutMessage" />
       <item itemvalue="TestNG.SendContactMessagewithoutOrder" />
       <item itemvalue="TestNG.SendContactMessagewitoutHeading" />
+      <item itemvalue="TestNG.SendContactMessage" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SendContactMessage" />
         <item itemvalue="TestNG.SendContactMessagewitoutHeading" />
         <item itemvalue="TestNG.SendContactMessagewithoutOrder" />
         <item itemvalue="TestNG.SendContactMessagewithoutMessage" />
         <item itemvalue="TestNG.SendContactMessagewithoutEmail" />
-        <item itemvalue="TestNG.SendContactMessagewithInvalidEmail" />
       </list>
     </recent_temporary>
   </component>
@@ -546,18 +556,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestSuite - 2020.04.20 at 11h 14m 23s.xml">
-      <configuration name="TestSuite" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestSuite - 2020.04.20 at 20h 37m 22s.xml">
-      <configuration name="TestSuite" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SendContactMessage - 2020.04.21 at 02h 45m 12s.xml">
-      <configuration name="SendContactMessage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SendContactMessage - 2020.04.21 at 02h 46m 32s.xml">
-      <configuration name="SendContactMessage" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="SendContactMessageInvalidFile - 2020.04.21 at 02h 50m 05s.xml">
       <configuration name="SendContactMessageInvalidFile" configurationId="TestNG" />
     </history-entry>
@@ -575,6 +573,18 @@
     </history-entry>
     <history-entry file="SendContactMessagewithoutMessage - 2020.04.21 at 03h 06m 55s.xml">
       <configuration name="SendContactMessagewithoutMessage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SendContactMessagewithoutOrder - 2020.04.21 at 03h 08m 09s.xml">
+      <configuration name="SendContactMessagewithoutOrder" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SendContactMessagewitoutHeading - 2020.04.21 at 03h 09m 13s.xml">
+      <configuration name="SendContactMessagewitoutHeading" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SendContactMessage - 2020.04.21 at 03h 15m 47s.xml">
+      <configuration name="SendContactMessage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestSuite - 2020.04.21 at 03h 17m 54s.xml">
+      <configuration name="TestSuite" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -671,13 +681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/SendContactMessagewitoutHeading.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="44" column="64" selection-start-line="44" selection-start-column="64" selection-end-line="44" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
@@ -692,51 +695,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/SendContactMessagewithInvalidEmail.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/SendContactMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        <state relative-caret-position="177">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/SendContactMessageInvalidFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        <state relative-caret-position="214">
+          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/SendContactMessagewithInvalidEmail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/SendContactMessagewithoutEmail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        <state relative-caret-position="293">
+          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/SendContactMessagewithoutMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/SendContactMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="34" selection-start-line="34" selection-end-line="39" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="221">
+          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/SendContactMessagewithoutOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+        <state relative-caret-position="107">
+          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/SendContactMessagewitoutHeading.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>

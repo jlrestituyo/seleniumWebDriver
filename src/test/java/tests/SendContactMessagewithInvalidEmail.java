@@ -29,7 +29,7 @@ public class SendContactMessagewithInvalidEmail {
         driver.manage().window().maximize();
         homePage = new HomePage(driver);
         myUtil = new Utils();
-        records = myUtil.readCSVFile("/Users/jrestituyo/IdeaProjects/seleniumWebDriver/data_source.csv");
+        records = myUtil.readCSVFile("data_source.csv");
     }
 
     @Test(testName = "Send Contact Message")
