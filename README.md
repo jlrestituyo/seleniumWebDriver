@@ -9,7 +9,7 @@ This project uses:
 * Apache Commons
 
 Project Structure:
-This project is build using Page Object Model and Data-Driven Development. All files accessed by the Test Class is doing using Ralative Path for avoid dependencies with specific folder structure or particular Operating Systems.
+This project is build using Page Object Model and Data-Driven Tests. All files accessed by the Test Class is doing using Ralative Path for avoid dependencies with specific folder structure or particular Operating Systems.
 
 Data Source:
 The data source used by the test scripts is located in project root folder name as data_source.csv. All test uses the same file in order to run.
