@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="QA Challenge" duration-ms="59094" started-at="2020-04-21T17:34:23Z" finished-at="2020-04-21T17:35:22Z">
+    <groups>
+    </groups>
+    <test name="Contact Form" duration-ms="59094" started-at="2020-04-21T17:34:23Z" finished-at="2020-04-21T17:35:22Z">
+      <class name="tests.SendContactMessageInvalidFile">
+        <test-method status="PASS" signature="init()[pri:0, instance:tests.SendContactMessageInvalidFile@3ac3fd8b]" name="init" is-config="true" duration-ms="4042" started-at="2020-04-21T17:35:15Z" finished-at="2020-04-21T17:35:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="sendContactMessage()[pri:0, instance:tests.SendContactMessageInvalidFile@3ac3fd8b]" name="sendContactMessage" duration-ms="2532" started-at="2020-04-21T17:35:19Z" finished-at="2020-04-21T17:35:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendContactMessage -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:tests.SendContactMessageInvalidFile@3ac3fd8b]" name="cleanUp" is-config="true" duration-ms="193" started-at="2020-04-21T17:35:22Z" finished-at="2020-04-21T17:35:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- tests.SendContactMessageInvalidFile -->
+      <class name="tests.SendContactMessageWithoutHeading">
+        <test-method status="PASS" signature="init()[pri:0, instance:tests.SendContactMessageWithoutHeading@43a25848]" name="init" is-config="true" duration-ms="5164" started-at="2020-04-21T17:35:07Z" finished-at="2020-04-21T17:35:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="sendContactMessage()[pri:0, instance:tests.SendContactMessageWithoutHeading@43a25848]" name="sendContactMessage" duration-ms="2634" started-at="2020-04-21T17:35:12Z" finished-at="2020-04-21T17:35:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendContactMessage -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:tests.SendContactMessageWithoutHeading@43a25848]" name="cleanUp" is-config="true" duration-ms="219" started-at="2020-04-21T17:35:15Z" finished-at="2020-04-21T17:35:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- tests.SendContactMessageWithoutHeading -->
+      <class name="tests.SendContactMessageWithInvalidEmail">
+        <test-method status="PASS" signature="init()[pri:0, instance:tests.SendContactMessageWithInvalidEmail@58ceff1]" name="init" is-config="true" duration-ms="4425" started-at="2020-04-21T17:34:35Z" finished-at="2020-04-21T17:34:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="sendContactMessage()[pri:0, instance:tests.SendContactMessageWithInvalidEmail@58ceff1]" name="sendContactMessage" duration-ms="2719" started-at="2020-04-21T17:34:39Z" finished-at="2020-04-21T17:34:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendContactMessage -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:tests.SendContactMessageWithInvalidEmail@58ceff1]" name="cleanUp" is-config="true" duration-ms="229" started-at="2020-04-21T17:34:42Z" finished-at="2020-04-21T17:34:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- tests.SendContactMessageWithInvalidEmail -->
+      <class name="tests.SendContactMessage">
+        <test-method status="PASS" signature="init()[pri:0, instance:tests.SendContactMessage@48140564]" name="init" is-config="true" duration-ms="9206" started-at="2020-04-21T17:34:23Z" finished-at="2020-04-21T17:34:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="sendContactMessage()[pri:0, instance:tests.SendContactMessage@48140564]" name="sendContactMessage" duration-ms="2436" started-at="2020-04-21T17:34:32Z" finished-at="2020-04-21T17:34:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendContactMessage -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:tests.SendContactMessage@48140564]" name="cleanUp" is-config="true" duration-ms="229" started-at="2020-04-21T17:34:34Z" finished-at="2020-04-21T17:34:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- tests.SendContactMessage -->
+      <class name="tests.SendContactMessageWithoutMessage">
+        <test-method status="PASS" signature="init()[pri:0, instance:tests.SendContactMessageWithoutMessage@49e4cb85]" name="init" is-config="true" duration-ms="5252" started-at="2020-04-21T17:34:50Z" finished-at="2020-04-21T17:34:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="sendContactMessage()[pri:0, instance:tests.SendContactMessageWithoutMessage@49e4cb85]" name="sendContactMessage" duration-ms="3344" started-at="2020-04-21T17:34:55Z" finished-at="2020-04-21T17:34:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendContactMessage -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:tests.SendContactMessageWithoutMessage@49e4cb85]" name="cleanUp" is-config="true" duration-ms="206" started-at="2020-04-21T17:34:59Z" finished-at="2020-04-21T17:34:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- tests.SendContactMessageWithoutMessage -->
+      <class name="tests.SendContactMessageWithoutEmail">
+        <test-method status="PASS" signature="init()[pri:0, instance:tests.SendContactMessageWithoutEmail@7c30a502]" name="init" is-config="true" duration-ms="4638" started-at="2020-04-21T17:34:42Z" finished-at="2020-04-21T17:34:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="sendContactMessage()[pri:0, instance:tests.SendContactMessageWithoutEmail@7c30a502]" name="sendContactMessage" duration-ms="3317" started-at="2020-04-21T17:34:47Z" finished-at="2020-04-21T17:34:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendContactMessage -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:tests.SendContactMessageWithoutEmail@7c30a502]" name="cleanUp" is-config="true" duration-ms="163" started-at="2020-04-21T17:34:50Z" finished-at="2020-04-21T17:34:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- tests.SendContactMessageWithoutEmail -->
+      <class name="tests.SendContactMessageWithoutOrder">
+        <test-method status="PASS" signature="init()[pri:0, instance:tests.SendContactMessageWithoutOrder@2133c8f8]" name="init" is-config="true" duration-ms="4353" started-at="2020-04-21T17:34:59Z" finished-at="2020-04-21T17:35:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="sendContactMessage()[pri:0, instance:tests.SendContactMessageWithoutOrder@2133c8f8]" name="sendContactMessage" duration-ms="3515" started-at="2020-04-21T17:35:03Z" finished-at="2020-04-21T17:35:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendContactMessage -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:tests.SendContactMessageWithoutOrder@2133c8f8]" name="cleanUp" is-config="true" duration-ms="232" started-at="2020-04-21T17:35:07Z" finished-at="2020-04-21T17:35:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- tests.SendContactMessageWithoutOrder -->
+    </test> <!-- Contact Form -->
+  </suite> <!-- QA Challenge -->
+</testng-results>
