@@ -8,6 +8,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import pages.*;
 import myUtils.*;
+import java.io.*;
 
 import java.util.List;
 
@@ -37,14 +38,15 @@ public class SendContactMessageInvalidFile {
             String header = record[0];
             String email = record[1];
             String order = record[2];
-            String file = record[3];
-            file = file.substring(0,file.length() - 3)+"jlr";
+            String fileStr = record[3];
+            fileStr = fileStr.substring(0,fileStr.length() - 3)+"jlr";
+            File file = new File(fileStr.trim());
             String message = record[4];
 
             homePage.clickContactUsLink();
             contactUs = new ContactUs(driver);
             Assert.assertEquals(driver.getCurrentUrl(), contactUs.getUrl());
-            contactUs.sendForm(header, email, order, file, message);
+            contactUs.sendForm(header, email, order, file.getAbsolutePath(), message);
             Assert.assertTrue(contactUs.isPresentAlertErrorFile());
         }
 

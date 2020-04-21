@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import pages.*;
 import myUtils.*;
 
-import java.net.URL;
+import java.io.*;
 import java.util.List;
 
 
@@ -37,13 +37,13 @@ public class SendContactMessage {
             String header = record[0];
             String email = record[1];
             String order = record[2];
-            String file = record[3];
+            File file = new File(record[3].trim());
             String message = record[4];
 
             homePage.clickContactUsLink();
             contactUs = new ContactUs(driver);
             Assert.assertEquals(driver.getCurrentUrl(),contactUs.getUrl());
-            contactUs.sendForm(header, email, order, file, message);
+            contactUs.sendForm(header, email, order, file.getAbsolutePath(), message);
             Assert.assertTrue(contactUs.isPresentConfirmationMessage());
         }
 
