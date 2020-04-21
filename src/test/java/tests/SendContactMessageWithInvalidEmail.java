@@ -14,7 +14,7 @@ import java.util.List;
 
 
 
-public class SendContactMessagewithoutMessage {
+public class SendContactMessageWithInvalidEmail {
     WebDriver driver;
     HomePage homePage;
     ContactUs contactUs;
@@ -37,18 +37,17 @@ public class SendContactMessagewithoutMessage {
 
         for (String[] record : records) {
             String header = record[0];
-            String email = record[1];
+            String email = "invalid";
             String order = record[2];
-            File file = new File(record[3].trim());
-            String message = "";
+            File file = new File (record[3].trim());
+            String message = record[4];
 
             homePage.clickContactUsLink();
             contactUs = new ContactUs(driver);
             Assert.assertEquals(driver.getCurrentUrl(), contactUs.getUrl());
             contactUs.sendForm(header, email, order, file.getAbsolutePath(), message);
-            Assert.assertTrue(contactUs.isPresentAlertErrorMessage());
+            Assert.assertTrue(contactUs.isPresentAlertErrorEmail());
         }
-
     }
 
     @AfterClass

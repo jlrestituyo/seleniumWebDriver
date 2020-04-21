@@ -14,7 +14,7 @@ import java.util.List;
 
 
 
-public class SendContactMessagewithInvalidEmail {
+public class SendContactMessageWithoutOrder {
     WebDriver driver;
     HomePage homePage;
     ContactUs contactUs;
@@ -37,17 +37,18 @@ public class SendContactMessagewithInvalidEmail {
 
         for (String[] record : records) {
             String header = record[0];
-            String email = "invalid";
-            String order = record[2];
-            File file = new File (record[3].trim());
+            String email = record[1];
+            String order = "";
+            File file = new File(record[3].trim());
             String message = record[4];
 
             homePage.clickContactUsLink();
             contactUs = new ContactUs(driver);
             Assert.assertEquals(driver.getCurrentUrl(), contactUs.getUrl());
             contactUs.sendForm(header, email, order, file.getAbsolutePath(), message);
-            Assert.assertTrue(contactUs.isPresentAlertErrorEmail());
+            Assert.assertTrue(contactUs.isPresentConfirmationMessage());
         }
+
     }
 
     @AfterClass

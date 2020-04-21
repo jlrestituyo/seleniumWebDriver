@@ -14,7 +14,7 @@ import java.util.List;
 
 
 
-public class SendContactMessagewithoutEmail {
+public class SendContactMessageWithoutHeading {
     WebDriver driver;
     HomePage homePage;
     ContactUs contactUs;
@@ -36,21 +36,18 @@ public class SendContactMessagewithoutEmail {
     public void sendContactMessage() {
 
         for (String[] record : records) {
-            String header = record[0];
-            String email = "";
+            String header = "";
+            String email = record[1];
             String order = record[2];
             File file = new File(record[3].trim());
             String message = record[4];
 
-
             homePage.clickContactUsLink();
             contactUs = new ContactUs(driver);
-
             Assert.assertEquals(driver.getCurrentUrl(), contactUs.getUrl());
             contactUs.sendForm(header, email, order, file.getAbsolutePath(), message);
-            Assert.assertTrue(contactUs.isPresentAlertErrorEmail());
+            Assert.assertTrue(contactUs.isPresentAlertErrorSubject());
         }
-
 
     }
 
